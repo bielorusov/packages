@@ -1,0 +1,9 @@
+# frozen_string_literal: true
+
+Rails.application.routes.draw do
+  root to: 'root#index', constraint: { scope: :public }
+
+  post '/graphql', to: 'graphql#execute'
+
+  mount GraphiQL::Rails::Engine, at: '/graphiql', graphql_path: 'graphql#execute' if Rails.env.development?
+end

@@ -1,0 +1,68 @@
+{
+  "name": "@assistshub/ah-js-endpoints",
+  "version": "0.1.0",
+  "description": "React SDK for AssistsHub external endpoint forms (GraphQL form config + offer submission)",
+  "license": "MIT",
+  "author": "Bielorusov <assistshub@gmail.com> (https://assistshub.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bielorusov/ah-js-endpoints.git"
+  },
+  "homepage": "https://github.com/bielorusov/ah-js-endpoints#readme",
+  "bugs": {
+    "url": "https://github.com/bielorusov/ah-js-endpoints/issues"
+  },
+  "keywords": [
+    "react",
+    "graphql",
+    "assistshub",
+    "forms",
+    "endpoints"
+  ],
+  "sideEffects": false,
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitest/coverage-v8": "^3.2.4",
+    "jsdom": "^26.1.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  }
+}

@@ -1,0 +1,19 @@
+time_zone: 'UTC'
+default_locale: en
+locales:
+  ru:
+    name: Русский
+    label: ru
+    aliases:
+    - ru
+  ua:
+    name: Українська
+    label: ua
+    aliases:
+    - ua
+    - uk
+  en:
+    name: English
+    label: en
+    aliases:
+    - en

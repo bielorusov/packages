@@ -1,0 +1,16 @@
+source 'https://rubygems.org'
+git_source(:github) { |repo| "https://github.com/#{repo}.git" }
+
+# Specify your gem's dependencies in api_core.gemspec.
+gemspec
+
+group :test do
+  gem 'activesupport'
+  gem 'brakeman'
+  gem 'pry'
+  gem 'rubocop-rake'
+  gem 'rubocop-rspec'
+  gem 'shoulda-matchers'
+end
+
+gem 'mongoid', github: 'mongodb/mongoid', branch: 'master'
