@@ -6,11 +6,11 @@
   "author": "Bielorusov <assistshub@gmail.com> (https://assistshub.com)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bielorusov/ah-js-utils.git"
+    "url": "https://github.com/bielorusov/packages/blob/main/NPMS/ah-js-utils.git"
   },
-  "homepage": "https://github.com/bielorusov/ah-js-utils#readme",
+  "homepage": "https://github.com/bielorusov/packages/blob/main/NPMS/ah-js-utils#readme",
   "bugs": {
-    "url": "https://github.com/bielorusov/ah-js-utils/issues"
+    "url": "https://github.com/bielorusov/packages/blob/main/NPMS/ah-js-utils/issues"
   },
   "keywords": [
     "react",

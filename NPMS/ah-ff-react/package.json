@@ -6,11 +6,11 @@
   "author": "Bielorusov <assistshub@gmail.com> (https://assistshub.com)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bielorusov/ah-ff-react.git"
+    "url": "https://github.com/bielorusov/packages/blob/main/NPMS/ah-ff-react.git"
   },
-  "homepage": "https://github.com/bielorusov/ah-ff-react#readme",
+  "homepage": "https://github.com/bielorusov/packages/blob/main/NPMS/ah-ff-react#readme",
   "bugs": {
-    "url": "https://github.com/bielorusov/ah-ff-react/issues"
+    "url": "https://github.com/bielorusov/packages/blob/main/NPMS/ah-ff-react/issues"
   },
   "keywords": [
     "feature-flags",

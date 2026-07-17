@@ -6,11 +6,11 @@
   "author": "Bielorusov <assistshub@gmail.com> (https://assistshub.com)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bielorusov/ah-js-endpoints.git"
+    "url": "https://github.com/bielorusov/packages/blob/main/NPMS/ah-js-endpoints.git"
   },
-  "homepage": "https://github.com/bielorusov/ah-js-endpoints#readme",
+  "homepage": "https://github.com/bielorusov/packages/blob/main/NPMS/ah-js-endpoints#readme",
   "bugs": {
-    "url": "https://github.com/bielorusov/ah-js-endpoints/issues"
+    "url": "https://github.com/bielorusov/packages/blob/main/NPMS/ah-js-endpoints/issues"
   },
   "keywords": [
     "react",
