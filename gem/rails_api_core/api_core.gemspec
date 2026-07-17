@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
 
   spec.summary     = 'Core of APIs based on rails'
   spec.description = 'Core of APIs based on rails'
-  spec.homepage    = 'https://bielorusov.com'
+  spec.homepage    = 'https://assistshub.com'
   spec.license     = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")
